@@ -183,17 +183,17 @@
       hero.className = 'hero-banner';
       hero.innerHTML = `
         <h1 class="app-title">Circle Quest</h1>
-        <p class="app-tagline">Master circle centre, radius, and diameter together in pair missions!</p>
+        <p class="app-tagline">Master circle centre, radius, and diameter in interactive missions!</p>
       `;
       homeScreen.appendChild(hero);
 
-      // Team Name Section
+      // Name Section
       const teamSec = document.createElement('div');
       teamSec.className = 'team-section';
       teamSec.innerHTML = `
-        <label for="team-name-input">Team Name (Pairs):</label>
+        <label for="team-name-input">Name:</label>
         <div class="team-input-wrapper">
-          <input type="text" id="team-name-input" class="team-input" placeholder="e.g. Maya & Adam" value="${escapeHtml(state.teamName)}">
+          <input type="text" id="team-name-input" class="team-input" placeholder="e.g. Maya" value="${escapeHtml(state.teamName)}">
         </div>
       `;
       homeScreen.appendChild(teamSec);

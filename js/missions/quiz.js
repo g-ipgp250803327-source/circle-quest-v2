@@ -13,7 +13,7 @@
       container.innerHTML = `
         <h2 class="mission-view-title">Mission 4: Quiz Arena</h2>
         <p style="font-size: 18px; color: var(--color-text-muted); max-width: 500px;">
-          Test your knowledge on circle centre, radius, and diameter in a timed pair quiz challenge!
+          Test your knowledge on circle centre, radius, and diameter in a timed quiz challenge!
         </p>
         <button id="complete-quiz-btn" class="btn btn-primary" style="margin-top: 20px;">
           Complete (test)
